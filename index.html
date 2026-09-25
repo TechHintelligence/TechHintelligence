@@ -1,894 +1,810 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta
-    name="description"
-    content="Tech Intel builds professional, mobile-friendly business websites starting at ₹499."
-  />
+    <meta
+      name="description"
+      content="Tech Intel builds professional, mobile-friendly business websites starting at ₹499."
+    />
 
-  <meta name="theme-color" content="#080a0f" />
+    <meta name="theme-color" content="#080a0f" />
 
-  <title>Tech Intel — Professional Websites from ₹499</title>
+    <title>Tech Intel — Professional Websites from ₹499</title>
 
-  <link rel="stylesheet" href="styles.css" />
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+      <a href="#home" class="brand"> <span>Tech</span>Intel </a>
 
-  <!-- ================= NAVBAR ================= -->
-  <header class="navbar">
-    <a href="#home" class="brand">
-      <span>Tech</span>Intel
-    </a>
+      <nav class="desktop-nav">
+        <a href="#demo">Demo</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
 
-    <nav class="desktop-nav">
-      <a href="#demo">Demo</a>
-      <a href="#how-it-works">How It Works</a>
-      <a href="#services">Services</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#faq">FAQ</a>
-    </nav>
+      <a href="#website-builder" class="nav-cta"> Get Started </a>
+    </header>
 
-    <a href="#get-started" class="nav-cta">
-      Get Started
-    </a>
-  </header>
+    <!-- ================= HERO ================= -->
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <div class="eyebrow">WEBSITE DESIGN STUDIO</div>
 
+          <h1>
+            People are searching for you.
+            <span>Can they find you?</span>
+          </h1>
 
-  <!-- ================= HERO ================= -->
-  <main>
+          <p class="hero-description">
+            Right now, someone is looking up a business like yours on their
+            phone. A well-designed website is what turns that search into a
+            customer — we build yours, professionally, starting at ₹499.
+          </p>
 
-    <section class="hero" id="home">
+          <div class="hero-buttons">
+            <a href="#website-builder" class="btn btn-primary">
+              Build My Website
+            </a>
 
-      <div class="hero-content">
-
-        <div class="eyebrow">
-          PROFESSIONAL BUSINESS WEBSITES
-        </div>
-
-        <h1>
-          Get your business online for
-          <span>₹499.</span>
-        </h1>
-
-        <p class="hero-description">
-          A clean, modern and mobile-friendly website designed around
-          your business. Tell us what you do and we'll help turn your
-          business into a professional online presence.
-        </p>
-
-        <div class="hero-buttons">
-
-          <a href="#get-started" class="btn btn-primary">
-            Create My Website — ₹499
-          </a>
-
-          <a href="#demo" class="btn btn-secondary">
-            See Demo
-          </a>
-
-        </div>
-
-        <div class="hero-trust">
-
-          <span>✓ Mobile Responsive</span>
-          <span>✓ WhatsApp Ready</span>
-          <span>✓ SEO Ready</span>
-          <span>✓ 1 Revision</span>
-
-        </div>
-
-      </div>
-
-
-      <!-- WEBSITE MOCKUP -->
-
-      <div class="website-mockup">
-
-        <div class="browser-header">
-
-          <div class="browser-dots">
-            <span></span>
-            <span></span>
-            <span></span>
+            <a href="#demo" class="btn btn-secondary"> See It In Action </a>
           </div>
 
-          <div class="browser-url">
-            yourbusiness.in
+          <div class="hero-trust">
+            <span><i>✓</i> Designed, not templated</span>
+            <span><i>✓</i> Live on your phone in days</span>
+            <span><i>✓</i> Built for Google search</span>
           </div>
+        </div>
+      </section>
 
+      <!-- ================= WEBSITE SHOWCASE ================= -->
+
+      <!-- ================= DEMO ================= -->
+
+      <section class="section demo-section" id="demo">
+        <div class="section-heading center">
+          <div class="eyebrow">SEE THE DIFFERENCE</div>
+
+          <h2>This is what "professional" actually looks like.</h2>
+
+          <p>
+            These are demos we build. Choose a business type, then try your own
+            brand, image and details below to see how your website can come
+            together.
+          </p>
         </div>
 
-
-        <div class="mock-website">
-
-          <div class="mock-navbar">
-            YOUR BUSINESS
-
-            <span>☰</span>
-          </div>
-
-          <div class="mock-body">
-
-            <div class="mock-small">
-              WELCOME TO
-            </div>
-
-            <h2>
-              Your Business
-            </h2>
-
-            <p>
-              Professional service.
-              Local trust. Online presence.
-            </p>
-
-            <button>
-              Contact Us
-            </button>
-
-          </div>
-
-          <div class="mock-footer">
-            WhatsApp • Call • Location
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= DEMO ================= -->
-
-    <section class="section demo-section" id="demo">
-
-      <div class="section-heading">
-
-        <div class="eyebrow">
-          WEBSITE PREVIEW
-        </div>
-
-        <h2>
-          See what your website could look like.
-        </h2>
-
-        <p>
-          Choose a business type and preview the design direction.
-        </p>
-
-      </div>
-
-
-      <div class="demo-container">
-
-        <div class="demo-tabs">
-
+        <div class="demo-tabs" id="demoTabs">
           <button class="demo-tab active" data-type="cafe">
-            Café
+            <span class="tab-icon">☕</span> Café
           </button>
 
           <button class="demo-tab" data-type="clinic">
-            Clinic
+            <span class="tab-icon">🏥</span> Clinic
           </button>
 
           <button class="demo-tab" data-type="salon">
-            Salon
+            <span class="tab-icon">💇</span> Salon
           </button>
 
           <button class="demo-tab" data-type="gym">
-            Gym
+            <span class="tab-icon">💪</span> Gym
           </button>
 
           <button class="demo-tab" data-type="restaurant">
-            Restaurant
+            <span class="tab-icon">🍽️</span> Restaurant
           </button>
 
+          <div class="try-yours-container">
+            <button class="try-yours-btn demo-tab" data-type="custom">
+              <span class="try-yours-icon">✦</span>
+
+              <span class="try-yours-content">
+                <strong>Try Your Own</strong>
+                <small>Customize a website with your brand and details.</small>
+              </span>
+
+              <span class="try-yours-arrow">→</span>
+            </button>
+          </div>
         </div>
 
-
-        <div class="demo-preview">
-
-          <div class="preview-header">
-
-            <span id="previewType">
-              CAFÉ
-            </span>
-
-            <span class="live">
-              ● LIVE PREVIEW
-            </span>
-
-          </div>
-
-
-          <div class="preview-content">
-
-            <div class="preview-kicker" id="previewKicker">
-              FRESH COFFEE • GOOD MOOD
+        <div class="demo-browser">
+          <div class="browser-header">
+            <div class="browser-dots">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
 
-            <h3 id="previewTitle">
-              Bean & Brew
-            </h3>
+            <div class="browser-url" id="previewUrl">beanandbrew.in</div>
 
-            <p id="previewDescription">
-              A warm local café for coffee, conversations and fresh bites.
+            <span class="live"> ● LIVE PREVIEW </span>
+          </div>
+
+          <div class="demo-site" id="demoSite">
+            <div class="site-nav">
+              <span class="site-logo" id="siteLogo"> Bean & Brew </span>
+
+              <div class="site-nav-links">
+                <span id="siteNav1">Menu</span>
+                <span id="siteNav2">About</span>
+                <span id="siteNav3">Contact</span>
+              </div>
+
+              <button class="site-nav-cta" id="siteCta">Order Now</button>
+            </div>
+
+            <div class="site-hero">
+              <div class="site-hero-text">
+                <div class="site-hero-kicker" id="previewKicker">
+                  FRESH COFFEE • GOOD MOOD
+                </div>
+
+                <h3 id="previewTitle">Bean & Brew</h3>
+
+                <p id="previewDescription">
+                  A warm local café for coffee, conversations and fresh bites.
+                </p>
+
+                <div class="site-hero-buttons">
+                  <button class="site-btn-primary" id="siteHeroCta">
+                    View Menu
+                  </button>
+
+                  <button class="site-btn-secondary">Visit Us</button>
+                </div>
+              </div>
+
+              <div class="site-hero-visual">
+                <div class="site-scene" id="siteScene"></div>
+              </div>
+            </div>
+
+            <div class="site-features">
+              <div class="site-feature">
+                <span class="feature-icon" id="feature1Icon">☕</span>
+                <span id="feature1Text">Freshly Brewed</span>
+              </div>
+
+              <div class="site-feature">
+                <span class="feature-icon" id="feature2Icon">🥐</span>
+                <span id="feature2Text">Fresh Bakes</span>
+              </div>
+
+              <div class="site-feature">
+                <span class="feature-icon" id="feature3Icon">📍</span>
+                <span id="feature3Text">Cozy Space</span>
+              </div>
+            </div>
+
+            <div class="site-footer">
+              <span id="siteLogo2">Bean & Brew</span>
+              <span>WhatsApp • Call • Location</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PRICING ================= -->
+
+      <section class="section pricing-section" id="pricing">
+        <div class="pricing-card">
+          <div class="pricing-info">
+            <div class="eyebrow">NO HIDDEN CATCH</div>
+
+            <h2>Real design, honest pricing.</h2>
+
+            <p>
+              A fully designed, professional one-page website — not a template
+              with your name swapped in. Domain and hosting are separate.
             </p>
-
-            <button>
-              View Website
-            </button>
-
           </div>
 
+          <div class="price">
+            <strong> ₹499 </strong>
+
+            <span> one-time* </span>
+          </div>
         </div>
 
-      </div>
+        <div class="feature-grid">
+          <div>✓ Professional one-page website</div>
+          <div>✓ Mobile responsive design</div>
+          <div>✓ WhatsApp integration</div>
+          <div>✓ Contact section</div>
+          <div>✓ Basic SEO setup</div>
+          <div>✓ Social media links</div>
+          <div>✓ Business information</div>
+          <div>✓ 1 revision</div>
+        </div>
 
-    </section>
+        <p class="pricing-note">
+          *Final pricing may vary for custom requirements, multiple pages,
+          e-commerce or advanced functionality.
+        </p>
+      </section>
 
+      <!-- ================= HOW IT WORKS ================= -->
 
-    <!-- ================= PRICING ================= -->
+      <section class="section" id="how-it-works">
+        <div class="section-heading">
+          <div class="eyebrow">NO TECHNICAL HEADACHE</div>
 
-    <section class="section pricing-section" id="pricing">
+          <h2>You focus on your business. We handle the rest.</h2>
+        </div>
 
-      <div class="pricing-card">
+        <div class="steps-grid">
+          <div class="step-card">
+            <span>01</span>
 
-        <div class="pricing-info">
+            <h3>Tell Us</h3>
 
-          <div class="eyebrow">
-            STARTER WEBSITE
+            <p>Fill in your business details and requirements.</p>
           </div>
 
-          <h2>
-            Everything you need to get online.
-          </h2>
+          <div class="step-card">
+            <span>02</span>
 
+            <h3>We Build</h3>
+
+            <p>We turn your information into a professional website.</p>
+          </div>
+
+          <div class="step-card">
+            <span>03</span>
+
+            <h3>You Review</h3>
+
+            <p>Review your website and request your included revision.</p>
+          </div>
+
+          <div class="step-card">
+            <span>04</span>
+
+            <h3>Go Live</h3>
+
+            <p>Connect your domain and launch your online presence.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SERVICES ================= -->
+
+      <section class="section services-section" id="services">
+        <div class="section-heading">
+          <div class="eyebrow">BEYOND THE WEBSITE</div>
+
+          <h2>Wherever your business grows, we grow with it.</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <span>01</span>
+
+            <h3>Business Websites</h3>
+
+            <p>
+              Modern websites for local businesses, professionals and startups.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span>02</span>
+
+            <h3>E-commerce</h3>
+
+            <p>Product catalogues, checkout flows and online stores.</p>
+          </article>
+
+          <article class="service-card">
+            <span>03</span>
+
+            <h3>AI Solutions</h3>
+
+            <p>AI assistants, document processing and business automation.</p>
+          </article>
+
+          <article class="service-card">
+            <span>04</span>
+
+            <h3>Custom Software</h3>
+
+            <p>Dashboards, portals and scalable web applications.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= TRUST ================= -->
+
+      <section class="section trust-section">
+        <div class="trust-card">
+          <span class="trust-icon">📱</span>
+          <strong>Built mobile-first</strong>
+          <span
+            >9 in 10 customers will meet you on their phone — so yours starts
+            there, not as an afterthought.</span
+          >
+        </div>
+
+        <div class="trust-card">
+          <span class="trust-icon">⚡</span>
+          <strong>Actually fast</strong>
+          <span
+            >No bloated builders. Clean code that loads instantly, so no one
+            bounces before they see you.</span
+          >
+        </div>
+
+        <div class="trust-card">
+          <span class="trust-icon">📈</span>
+          <strong>Room to grow</strong>
+          <span
+            >Start with one page. Add e-commerce, bookings or AI tools the
+            moment you're ready.</span
+          >
+        </div>
+
+        <div class="trust-card">
+          <span class="trust-icon">💬</span>
+          <strong>A real person replies</strong>
+          <span
+            >No ticket systems. Message us on WhatsApp and talk to the person
+            building your site.</span
+          >
+        </div>
+      </section>
+
+      <!-- ================= FORM ================= -->
+
+      <section class="section form-section" id="website-builder">
+        <div class="form-intro">
+          <div class="eyebrow">CONTACT TECH INTEL</div>
+          <h2>Let's build your website.</h2>
           <p>
-            A professional starter website for your business.
-            Domain and hosting are separate.
+            Just enter your name and choose a plan. Want to show us your idea
+            first? Use <strong>Try Yours</strong> above.
           </p>
-
+          <div class="privacy-box">
+            🔒 Only the information you provide is prepared for WhatsApp.
+          </div>
         </div>
 
+        <form id="leadForm" class="lead-form">
+          <div class="form-row">
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Select Plan
+              <select name="websiteType">
+                <option value="">Choose a plan</option>
+                <option>₹499 Starter Website</option>
+                <option>Multi-page Business Website</option>
+                <option>E-commerce Website</option>
+                <option>Custom Web Application</option>
+                <option>AI / Automation Solution</option>
+              </select>
+            </label>
+          </div>
 
-        <div class="price">
-
-          <strong>
-            ₹499
-          </strong>
-
-          <span>
-            one-time*
-          </span>
-
-        </div>
-
-      </div>
-
-
-      <div class="feature-grid">
-
-        <div>✓ Professional one-page website</div>
-        <div>✓ Mobile responsive design</div>
-        <div>✓ WhatsApp integration</div>
-        <div>✓ Contact section</div>
-        <div>✓ Basic SEO setup</div>
-        <div>✓ Social media links</div>
-        <div>✓ Business information</div>
-        <div>✓ 1 revision</div>
-
-      </div>
-
-
-      <p class="pricing-note">
-        *Final pricing may vary for custom requirements, multiple pages,
-        e-commerce or advanced functionality.
-      </p>
-
-    </section>
-
-
-    <!-- ================= HOW IT WORKS ================= -->
-
-    <section class="section" id="how-it-works">
-
-      <div class="section-heading">
-
-        <div class="eyebrow">
-          SIMPLE PROCESS
-        </div>
-
-        <h2>
-          From idea to online in four steps.
-        </h2>
-
-      </div>
-
-
-      <div class="steps-grid">
-
-        <div class="step-card">
-
-          <span>01</span>
-
-          <h3>
-            Tell Us
-          </h3>
-
-          <p>
-            Fill in your business details and requirements.
+          <button type="submit" class="btn btn-primary submit-btn">
+            Contact on WhatsApp →
+          </button>
+          <p class="form-help">
+            You can leave both blank too — WhatsApp will still open.
           </p>
-
-        </div>
-
-
-        <div class="step-card">
-
-          <span>02</span>
-
-          <h3>
-            We Build
-          </h3>
-
-          <p>
-            We turn your information into a professional website.
-          </p>
-
-        </div>
-
-
-        <div class="step-card">
-
-          <span>03</span>
-
-          <h3>
-            You Review
-          </h3>
-
-          <p>
-            Review your website and request your included revision.
-          </p>
-
-        </div>
-
-
-        <div class="step-card">
-
-          <span>04</span>
-
-          <h3>
-            Go Live
-          </h3>
-
-          <p>
-            Connect your domain and launch your online presence.
-          </p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= SERVICES ================= -->
-
-    <section class="section services-section" id="services">
-
-      <div class="section-heading">
-
-        <div class="eyebrow">
-          MORE THAN WEBSITES
-        </div>
-
-        <h2>
-          Build the next stage of your business.
-        </h2>
-
-      </div>
-
-
-      <div class="services-grid">
-
-        <article class="service-card">
-
-          <span>01</span>
-
-          <h3>
-            Business Websites
-          </h3>
-
-          <p>
-            Modern websites for local businesses,
-            professionals and startups.
-          </p>
-
-        </article>
-
-
-        <article class="service-card">
-
-          <span>02</span>
-
-          <h3>
-            E-commerce
-          </h3>
-
-          <p>
-            Product catalogues, checkout flows
-            and online stores.
-          </p>
-
-        </article>
-
-
-        <article class="service-card">
-
-          <span>03</span>
-
-          <h3>
-            AI Solutions
-          </h3>
-
-          <p>
-            AI assistants, document processing
-            and business automation.
-          </p>
-
-        </article>
-
-
-        <article class="service-card">
-
-          <span>04</span>
-
-          <h3>
-            Custom Software
-          </h3>
-
-          <p>
-            Dashboards, portals and scalable
-            web applications.
-          </p>
-
-        </article>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= TRUST ================= -->
-
-    <section class="section trust-section">
-
-      <div class="trust-card">
-        <strong>Mobile First</strong>
-        <span>Designed for phones</span>
-      </div>
-
-      <div class="trust-card">
-        <strong>Fast</strong>
-        <span>Clean and lightweight</span>
-      </div>
-
-      <div class="trust-card">
-        <strong>Scalable</strong>
-        <span>Upgrade anytime</span>
-      </div>
-
-      <div class="trust-card">
-        <strong>Direct Support</strong>
-        <span>Talk to us on WhatsApp</span>
-      </div>
-
-    </section>
-
-
-    <!-- ================= FORM ================= -->
-
-    <section class="section form-section" id="get-started">
-
-      <div class="form-intro">
-
-        <div class="eyebrow">
-          LET'S BUILD IT
-        </div>
-
-        <h2>
-          Tell us about your business.
-        </h2>
-
-        <p>
-          Complete the form and your enquiry will be prepared
-          automatically for WhatsApp.
-        </p>
-
-
-        <div class="privacy-box">
-
-          🔒 Your information will be prepared as a
-          WhatsApp message for Tech Intel.
-
-        </div>
-
-      </div>
-
-
-      <form id="leadForm" class="lead-form">
-
-        <div class="form-row">
-
-          <label>
-            Full Name *
-            <input
-              type="text"
-              name="name"
-              placeholder="Your full name"
-              required
-            />
-          </label>
-
-
-          <label>
-            WhatsApp Number *
-            <input
-              type="tel"
-              name="phone"
-              inputmode="tel"
-              placeholder="+91 98765 43210"
-              required
-            />
-          </label>
-
-        </div>
-
-
-        <div class="form-row">
-
-          <label>
-            Business Name *
-            <input
-              type="text"
-              name="business"
-              placeholder="Your business name"
-              required
-            />
-          </label>
-
-
-          <label>
-            Business Type *
-
-            <select name="businessType" required>
-
-              <option value="">
-                Select type
-              </option>
-
-              <option>Café / Restaurant</option>
-              <option>Clinic</option>
-              <option>Salon / Spa</option>
-              <option>Gym / Fitness</option>
-              <option>Consultant / Professional</option>
-              <option>Shop / Retail</option>
-              <option>Startup</option>
-              <option>Other</option>
-
-            </select>
-
-          </label>
-
-        </div>
-
-
-        <label>
-
-          Business Location *
-
-          <input
-            type="text"
-            name="location"
-            placeholder="City / Area"
-            required
-          />
-
-        </label>
-
-
-        <label>
-
-          Website Requirement *
-
-          <select name="websiteType" required>
-
-            <option value="">
-              Select requirement
-            </option>
-
-            <option>
-              ₹499 Starter Website
-            </option>
-
-            <option>
-              Multi-page Business Website
-            </option>
-
-            <option>
-              E-commerce Website
-            </option>
-
-            <option>
-              Custom Web Application
-            </option>
-
-            <option>
-              AI / Automation Solution
-            </option>
-
-          </select>
-
-        </label>
-
-
-        <label>
-
-          Do you already have a domain?
-
-          <select name="domain">
-
-            <option>
-              No
-            </option>
-
-            <option>
-              Yes
-            </option>
-
-            <option>
-              Not Sure
-            </option>
-
-          </select>
-
-        </label>
-
-
-        <label>
-
-          Tell us about your business / requirements *
-
-          <textarea
-            name="requirements"
-            rows="5"
-            placeholder="Tell us about your business, required pages, features, services, etc."
-            required
-          ></textarea>
-
-        </label>
-
-
-        <label>
-
-          Preferred Contact Time
-
-          <select name="contactTime">
-
-            <option>
-              Any Time
-            </option>
-
-            <option>
-              Morning
-            </option>
-
-            <option>
-              Afternoon
-            </option>
-
-            <option>
-              Evening
-            </option>
-
-          </select>
-
-        </label>
-
-
-        <label class="checkbox-label">
-
-          <input
-            type="checkbox"
-            name="consent"
-            required
-          />
-
-          <span>
-            I confirm the information is correct and
-            I want to discuss my website requirement.
-          </span>
-
-        </label>
-
-
-        <button
-          type="submit"
-          class="btn btn-primary submit-btn"
-        >
-          Send Details on WhatsApp →
-        </button>
-
-
-        <p class="form-help">
-          WhatsApp will open with your enquiry already filled in.
-          Tap <strong>Send</strong> to submit it.
-        </p>
-
-
+          <div id="formMessage" class="form-message"></div>
+        </form>
+      </section>
+
+      <!-- ================= TRY YOURS BUILDER MODAL ================= -->
+      <div class="builder-modal" id="builderModal" aria-hidden="true">
+        <div class="builder-modal-backdrop" data-close-builder></div>
         <div
-          id="formMessage"
-          class="form-message"
-        ></div>
+          class="builder-card"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="builderModalTitle"
+        >
+          <button
+            class="builder-close"
+            type="button"
+            data-close-builder
+            aria-label="Close"
+          >
+            ×
+          </button>
 
-      </form>
+          <div class="builder-card-head">
+            <div>
+              <div class="eyebrow">TRY YOURS • LIVE DEMO</div>
+              <h2 id="builderModalTitle">
+                Make a quick version of your website.
+              </h2>
+              <p>
+                Fill as much as you want. Nothing is required here. Your preview
+                updates instantly.
+              </p>
+            </div>
+            <span class="preview-badge">● LIVE</span>
+          </div>
 
-    </section>
+          <form id="builderForm" class="builder-form" autocomplete="off">
+            <div class="builder-grid">
+              <label>
+                Brand / Business Name
+                <input
+                  type="text"
+                  name="business"
+                  placeholder="e.g. Sharma Café"
+                />
+              </label>
+              <label>
+                Business Type
+                <select name="businessType">
+                  <option value="">Choose type</option>
+                  <option>Café / Restaurant</option>
+                  <option>Clinic</option>
+                  <option>Salon / Spa</option>
+                  <option>Gym / Fitness</option>
+                  <option>Consultant / Professional</option>
+                  <option>Shop / Retail</option>
+                  <option>Startup</option>
+                  <option>Other / Custom</option>
+                </select>
+              </label>
+              <label>
+                Website Tagline
+                <input
+                  type="text"
+                  name="tagline"
+                  placeholder="e.g. Fresh food. Great moments."
+                />
+              </label>
+              <label>
+                Hero Button Text
+                <input type="text" name="heroCta" placeholder="e.g. Book Now" />
+              </label>
+              <label>
+                Location
+                <input type="text" name="location" placeholder="City / Area" />
+              </label>
+              <label>
+                Key Services / Highlights
+                <input
+                  type="text"
+                  name="services"
+                  placeholder="e.g. Haircut, Styling, Spa"
+                />
+              </label>
+              <label>
+                Website Style
+                <select name="theme">
+                  <option>Modern & Minimal</option>
+                  <option>Premium & Elegant</option>
+                  <option>Bold & Energetic</option>
+                  <option>Warm & Friendly</option>
+                </select>
+              </label>
+              <label>
+                Text Color
+                <span class="color-field"
+                  ><input type="color" name="textColor" value="#ffffff" /><span
+                    >Choose the text color for your preview.</span
+                  ></span
+                >
+              </label>
+              <label>
+                Background Color
+                <span class="color-field"
+                  ><input type="color" name="bgColor" value="#10141c" /><span
+                    >Choose the main background color.</span
+                  ></span
+                >
+              </label>
+              <label>
+                Background Image
+                <span class="file-upload-box compact-upload">
+                  <input
+                    type="file"
+                    name="backgroundImage"
+                    id="backgroundImage"
+                    accept="image/jpeg,image/png,image/webp,image/gif"
+                  />
+                  <span><strong>Choose background</strong> — optional.</span>
+                </span>
+              </label>
+              <label>
+                Existing Domain
+                <select name="domain">
+                  <option value="">Not provided</option>
+                  <option>No</option>
+                  <option>Yes</option>
+                  <option>Not Sure</option>
+                </select>
+              </label>
+            </div>
 
+            <label>
+              Short Business Description
+              <textarea
+                name="description"
+                rows="2"
+                placeholder="Tell customers what you do..."
+              ></textarea>
+            </label>
 
-    <!-- ================= FAQ ================= -->
+            <label>
+              Requirements / Extra Features
+              <textarea
+                name="requirements"
+                rows="2"
+                placeholder="Pages, booking, payment, gallery, AI, etc."
+              ></textarea>
+            </label>
 
-    <section class="section faq-section" id="faq">
+            <label class="file-upload-label">
+              Hero / Main Picture
+              <span class="file-upload-box">
+                <input
+                  type="file"
+                  name="heroImage"
+                  id="heroImage"
+                  accept="image/jpeg,image/png,image/webp,image/gif"
+                />
+                <span
+                  ><strong>Choose an image</strong> — we'll crop it to fit the
+                  website.</span
+                >
+              </span>
+            </label>
 
-      <div class="section-heading">
+            <div class="crop-tool" id="cropTool" hidden>
+              <div class="crop-tool-head">
+                <strong>Adjust your picture</strong>
+                <span>Drag to position • use + / − to zoom</span>
+              </div>
+              <canvas id="cropCanvas" width="900" height="520"></canvas>
+              <div class="crop-controls">
+                <button type="button" class="crop-btn" id="cropZoomOut">
+                  −
+                </button>
+                <input
+                  type="range"
+                  id="cropZoom"
+                  min="1"
+                  max="3"
+                  step="0.01"
+                  value="1"
+                  aria-label="Zoom"
+                />
+                <button type="button" class="crop-btn" id="cropZoomIn">
+                  +
+                </button>
+                <button type="button" class="crop-apply" id="cropApply">
+                  Use This Crop
+                </button>
+              </div>
+            </div>
+          </form>
 
-        <div class="eyebrow">
-          FAQ
+          <div class="builder-preview-wrap">
+            <div class="builder-preview-heading">
+              <div>
+                <div class="eyebrow">YOUR WEBSITE PREVIEW</div>
+                <h3>We build what you want.</h3>
+                <p>Your details appear here instantly.</p>
+              </div>
+              <span class="preview-badge">● LIVE DEMO</span>
+            </div>
+
+            <div class="demo-browser builder-browser">
+              <div class="browser-header">
+                <div class="browser-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="browser-url" id="builderPreviewUrl">
+                  yourbusiness.in
+                </div>
+                <span class="live">● YOUR PREVIEW</span>
+              </div>
+              <div class="demo-site" id="builderSite">
+                <!-- Background video for the live website preview -->
+                <video
+                  id="builderBackgroundVideo"
+                  class="builder-background-video"
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                  aria-hidden="true"
+                ></video>
+                <div class="site-nav">
+                  <span class="site-logo" id="builderLogo">Your Brand</span>
+                  <div class="site-nav-links">
+                    <span>Home</span><span>About</span><span>Contact</span>
+                  </div>
+                  <button class="site-nav-cta" id="builderNavCta" type="button">
+                    Contact Us
+                  </button>
+                </div>
+                <div class="site-hero">
+                  <div class="site-hero-text">
+                    <div class="site-hero-kicker" id="builderTagline">
+                      YOUR BUSINESS • YOUR STYLE
+                    </div>
+                    <h3 id="builderTitle">Your Brand</h3>
+                    <p id="builderDescription">
+                      A professional website designed around your business, your
+                      customers and your brand.
+                    </p>
+                    <div class="site-hero-buttons">
+                      <button
+                        class="site-btn-primary"
+                        id="builderHeroCta"
+                        type="button"
+                      >
+                        Get Started
+                      </button>
+                      <button
+                        class="site-btn-secondary builder-contact-btn"
+                        type="button"
+                      >
+                        Contact
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="site-hero-visual builder-hero-visual"
+                    id="builderHeroVisual"
+                  >
+                    <div
+                      class="builder-image-placeholder"
+                      id="builderImagePlaceholder"
+                    >
+                      <span>✨</span><strong>Your hero picture</strong
+                      ><small>Upload an image above</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="site-features builder-features">
+                  <div class="site-feature">
+                    <span class="feature-icon">⚡</span
+                    ><span id="builderFeature1">Professional Design</span>
+                  </div>
+                  <div class="site-feature">
+                    <span class="feature-icon">📱</span
+                    ><span id="builderFeature2">Mobile Friendly</span>
+                  </div>
+                  <div class="site-feature">
+                    <span class="feature-icon">💬</span
+                    ><span id="builderFeature3">Easy Contact</span>
+                  </div>
+                </div>
+                <div class="site-footer">
+                  <span id="builderLogo2">Your Brand</span
+                  ><span>WhatsApp • Call • Location</span>
+                </div>
+              </div>
+            </div>
+            <div class="live-line">
+              🚀 <strong>Want this website live?</strong> Just click
+              <strong>Contact</strong> and we'll take it from here.
+            </div>
+          </div>
+
+          <button
+            type="button"
+            class="btn btn-primary builder-done-btn"
+            id="builderDone"
+          >
+            Use My Details & Continue →
+          </button>
+          <p class="builder-note">
+            Your card details are only added to WhatsApp if you actually fill
+            them.
+          </p>
+        </div>
+      </div>
+
+      <!-- ================= FAQ ================= -->
+
+      <section class="section faq-section" id="faq">
+        <div class="section-heading">
+          <div class="eyebrow">FAQ</div>
+
+          <h2>Still deciding? Fair questions.</h2>
         </div>
 
-        <h2>
-          Questions before you start?
-        </h2>
+        <div class="faq-list">
+          <details>
+            <summary>Is ₹499 a one-time payment?</summary>
 
+            <p>
+              Yes. The advertised starter website setup is a one-time price.
+              Domain, hosting and additional requirements are separate where
+              applicable.
+            </p>
+          </details>
+
+          <details>
+            <summary>Can I use my own domain?</summary>
+
+            <p>
+              Yes. You can connect your existing domain, or arrange a new domain
+              separately.
+            </p>
+          </details>
+
+          <details>
+            <summary>Can I request changes?</summary>
+
+            <p>
+              The starter package includes one revision. Additional changes can
+              be discussed based on your requirements.
+            </p>
+          </details>
+
+          <details>
+            <summary>Can I upgrade later?</summary>
+
+            <p>
+              Yes. You can upgrade to additional pages, e-commerce, custom
+              software or AI automation.
+            </p>
+          </details>
+
+          <details>
+            <summary>How do I start?</summary>
+
+            <p>
+              Fill in the enquiry form. WhatsApp will open with your details
+              prepared automatically.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <div class="footer-brand">
+        <a href="#home" class="brand"> <span>Tech</span>Intel </a>
+
+        <p>Professional digital solutions for modern businesses.</p>
       </div>
 
-
-      <div class="faq-list">
-
-        <details>
-
-          <summary>
-            Is ₹499 a one-time payment?
-          </summary>
-
-          <p>
-            Yes. The advertised starter website setup is a
-            one-time price. Domain, hosting and additional
-            requirements are separate where applicable.
-          </p>
-
-        </details>
-
-
-        <details>
-
-          <summary>
-            Can I use my own domain?
-          </summary>
-
-          <p>
-            Yes. You can connect your existing domain,
-            or arrange a new domain separately.
-          </p>
-
-        </details>
-
-
-        <details>
-
-          <summary>
-            Can I request changes?
-          </summary>
-
-          <p>
-            The starter package includes one revision.
-            Additional changes can be discussed based
-            on your requirements.
-          </p>
-
-        </details>
-
-
-        <details>
-
-          <summary>
-            Can I upgrade later?
-          </summary>
-
-          <p>
-            Yes. You can upgrade to additional pages,
-            e-commerce, custom software or AI automation.
-          </p>
-
-        </details>
-
-
-        <details>
-
-          <summary>
-            How do I start?
-          </summary>
-
-          <p>
-            Fill in the enquiry form. WhatsApp will open
-            with your details prepared automatically.
-          </p>
-
-        </details>
-
+      <div class="footer-links">
+        <a href="#demo">Demo</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
       </div>
 
-    </section>
+      <div class="footer-contact">
+        <a
+          href="https://wa.me/919935932705"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp Tech Intel
+        </a>
+      </div>
 
-  </main>
+      <div class="copyright">© 2026 Tech Intel. All rights reserved.</div>
+    </footer>
 
-
-  <!-- ================= FOOTER ================= -->
-
-  <footer>
-
-    <div class="footer-brand">
-
-      <a href="#home" class="brand">
-        <span>Tech</span>Intel
-      </a>
-
-      <p>
-        Professional digital solutions
-        for modern businesses.
-      </p>
-
-    </div>
-
-
-    <div class="footer-links">
-
-      <a href="#demo">Demo</a>
-      <a href="#services">Services</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#faq">FAQ</a>
-
-    </div>
-
-
-    <div class="footer-contact">
-
-      <a
-        href="https://wa.me/919935932705"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        WhatsApp Tech Intel
-      </a>
-
-    </div>
-
-
-    <div class="copyright">
-
-      © 2026 Tech Intel. All rights reserved.
-
-    </div>
-
-  </footer>
-
-
-  <script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
