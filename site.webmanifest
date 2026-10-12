@@ -1,0 +1,48 @@
+{
+  "name": "Tech Intel — Website Development",
+  "short_name": "Tech Intel",
+  "description": "Professional, mobile-friendly business websites from ₹499. 3-day delivery, WhatsApp integration, no advance payment.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FBFAF8",
+  "theme_color": "#0D7C6B",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "developer"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Pricing",
+      "short_name": "Pricing",
+      "url": "/#pricing",
+      "description": "See website packages and prices"
+    },
+    {
+      "name": "Chat on WhatsApp",
+      "short_name": "WhatsApp",
+      "url": "https://wa.me/919935932705",
+      "description": "Start a conversation on WhatsApp"
+    }
+  ]
+}

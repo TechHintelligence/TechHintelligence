@@ -1,0 +1,78 @@
+# Tech Intel — Netlify configuration
+# Security headers, caching, and redirects
+
+[build]
+  publish = "."
+
+# ============ SECURITY HEADERS ============
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), payment=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-XSS-Protection = "1; mode=block"
+
+# ============ CACHE STATIC ASSETS ============
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ============ NO CACHE FOR HTML ============
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ============ REDIRECTS ============
+[[redirects]]
+  from = "/whatsapp"
+  to = "https://wa.me/919935932705"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/wa"
+  to = "https://wa.me/919935932705"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/instagram"
+  to = "https://instagram.com/"
+  status = 302
+  force = true
+
+# ============ 404 FALLBACK ============
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
