@@ -5,15 +5,15 @@
 
   <!-- Homepage — English -->
   <url>
-    <loc>https://aiintel.netlify.app/</loc>
+    <loc>https://techintl.netlify.app/</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://aiintel.netlify.app/"/>
-    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://aiintel.netlify.app/?lang=hi"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiintel.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://techintl.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://techintl.netlify.app/?lang=hi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://techintl.netlify.app/"/>
     <image:image>
-      <image:loc>https://aiintel.netlify.app/og-image.jpg</image:loc>
+      <image:loc>https://techintl.netlify.app/og-image.jpg</image:loc>
       <image:title>Tech Intel — Professional Websites from ₹499</image:title>
       <image:caption>Affordable, mobile-friendly website development for Indian small businesses.</image:caption>
     </image:image>
@@ -21,38 +21,38 @@
 
   <!-- Homepage — Hindi -->
   <url>
-    <loc>https://aiintel.netlify.app/?lang=hi</loc>
+    <loc>https://techintl.netlify.app/?lang=hi</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://aiintel.netlify.app/"/>
-    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://aiintel.netlify.app/?lang=hi"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://techintl.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://techintl.netlify.app/?lang=hi"/>
   </url>
 
   <!-- Section anchors (informational, not always indexed, but good practice) -->
   <url>
-    <loc>https://aiintel.netlify.app/#services</loc>
+    <loc>https://techintl.netlify.app/#services</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://aiintel.netlify.app/#pricing</loc>
+    <loc>https://techintl.netlify.app/#pricing</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://aiintel.netlify.app/#examples</loc>
+    <loc>https://techintl.netlify.app/#examples</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://aiintel.netlify.app/#faq</loc>
+    <loc>https://techintl.netlify.app/#faq</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
